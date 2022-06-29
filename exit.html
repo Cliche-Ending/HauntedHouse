@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<!--Credits to Ramon for letting us use his code for codebreaker for inspiration-->
+<html>
+  <head>
+    <title></title>
+    <style>
+      body {
+        font-family: Sans-serif;
+        text-align: center;
+        margin: 0;
+      }
+      #combination {
+        padding-left: 1rem;
+        letter-spacing: 1rem;
+      }
+      #result {
+        margin: 2rem 0 1rem 0;
+      }
+    </style>
+    <script src = "script.js"></script>
+    <script>
+    </script>
+  </head>
+  <body onload="initialize();">
+    <p>Hint: Check the dresser's last drawer in the bedroom! It's very sneaky!</p>
+    <h1 id="combination">____</h1>
+    <div>
+      <a href = "LivingRoom.html">
+        <button>Back</button>
+      </a>
+      <button onclick="clearGuess();">Clear</button>
+      <button onclick="enterDigit(1);">1</button>
+      <button onclick="enterDigit(2);">2</button>
+      <button onclick="enterDigit(3);">3</button>
+      <button onclick="enterDigit(4);">4</button>
+    </div>
+    <div id="result"></div>
+  </body>
+</html>

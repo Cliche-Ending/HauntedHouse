@@ -1,0 +1,23 @@
+div {
+  width: 40%;
+  height: 15vh;
+  padding: 5;
+  border: 5px outset gray;
+  background-color: aliceblue;
+  z-index: 1;
+}
+h2 {
+  font-family: Papyrus, fantasy;
+  font-size: 24px;
+  font-weight: bold;
+}
+P {
+  font-family: Papyrus, fantasy;
+  font-size: 15px;
+  font-weight:bold;
+}
+.story {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}

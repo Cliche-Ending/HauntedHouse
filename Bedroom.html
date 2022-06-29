@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bedroom</title>
+    <style>
+      body {
+        background-image: url('room.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      .light {
+        position: fixed;
+        left: 79%;
+        top: 29%;
+        zoom: 75%;
+      }
+      .bed {
+        position: fixed;
+        left: 3%;
+        top: 60%;
+        zoom: 150%;
+      }
+      .arrow {
+        transform: rotate(90deg);
+        position: fixed;
+        zoom: 25%;
+        right: 4%;
+        top: 45%;
+      }
+      .drawer {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+      }
+      .mystery {
+        position: absolute;
+        right: 25%;
+        top: 85%;
+        z-index: 2;
+      }
+    
+    </style>
+    <script>
+      function initialize() {
+        
+      }
+    </script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "initialize();">
+  
+      <a href = "gameover.html">
+        <img src = "bed.png" alt = "Bed" class = "bed" width = "450" height = "300"/>
+      </a>
+      <a href = "index.html">
+        <img src = "lightswitch.png" class = "light" alt = "Light Switch" width = "100" height = "75"/>
+      </a>
+      
+      <img src = "drawer.png" class = "drawer" alt = "Drawer" />
+      <a href = "Staircase.html">
+        <img src = "arrow.png" class = "arrow" alt = "Arrow" />
+      </a>
+      <a href = "answer.html">
+        <img src = "mystery button.PNG" class = "mystery" alt = "mystery" />
+      </a>
+      <div class = "story">  
+        <h2 style = "text-align: center;">Bedroom</h2>
+        <p style = "text-align: center">Just a tiny bedroom with a drawer. Something seems sus under the bed.</p>   
+      </div>
+
+      
+  </body>
+</html>

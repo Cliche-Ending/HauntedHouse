@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Staircase</title>
+    <style>
+      body {
+        background-image: url('stairdown.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      .arrow1 {
+        position: fixed;
+        transform: rotate(-98deg);
+        zoom: 25%;
+        right: 35%;
+        top: 35%;
+      }
+      .arrow2 {
+        position: fixed;
+        transform: rotate(180deg);
+        zoom: 25%;
+        right: 50%;
+        top: 85%;
+      }
+    </style>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script>
+    </script>
+  </head>
+  <body onload = "initialize();">
+    <a href = "LivingRoom.html">
+        <img src = "arrow.png" class = "arrow1" alt = "Arrow" />
+    </a>
+    <a href = "Bedroom.html">
+        <img src = "arrow.png" class = "arrow2" alt = "Arrow" />
+    </a>
+    <div class = "story">  
+      <h2 style = "text-align: center;">Staircase</h2>
+      <p style = "text-align: center">The door to the left is blocked. Only way to go is down.</p>
+    </div>
+  </body>
+</html>
