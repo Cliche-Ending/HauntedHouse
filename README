@@ -1,0 +1,15 @@
+Created a haunted house 'game' for a school project.
+This project was completely done for educational and recreational purposes.
+Skills developed:
+  - The overlaying of images
+  - JavaScript
+    - Commands executed upon clicking on buttons
+  - CSS
+    - Placement and importing of images
+    - Absolute + fixed positions
+  - HTML
+    - Creation of the site + display
+Problems encountered:
+  - Placing the images over each other correctly
+  - The switching between images
+    - Resolved by creating different HTML pages instead of changing images.
